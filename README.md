@@ -48,7 +48,7 @@ This project leverages Next.js performance optimizations, TypeScript type safety
 | Frontend | Backend      | Database          | Other Tools |
 | -------- | ------------ | ----------------- | ----------- |
 | Next.js  | ASP.NET Core | EF Core           | Axios       |
-| React    | C#           | SQLite/SQL Server | TypeScript  |
+| React    | C#           | SQL Server        | TypeScript  |
 | Tailwind | .NET 8       | Migrations        | REST API    |
 
 ---
@@ -61,6 +61,8 @@ next: 15.5.0
 react: 19.1.0
 react-dom: 19.1.0
 ```
+
+---
 
 ---
 
@@ -88,7 +90,7 @@ react-dom: 19.1.0
 │   ├── homepage.png
 │   ├── loginpage.png
 │   ├── signuppage.png
-│   └── dashboardpage*.png
+│   └── dashboardpage.png
 └── frontend
     ├── app
     ├── components
