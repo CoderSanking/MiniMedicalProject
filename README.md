@@ -7,43 +7,43 @@
 MiniMedicalProject is a full-stack web application built with Next.js, React, TypeScript, and ASP.NET Core.
 It provides a modern and responsive interface for managing medical information, with secure authentication, profile management, and file handling.
 
-This project leverages Next.js performance optimizations, TypeScript type safety**, and **ASP.NET Core backend APIs**, making it a strong foundation for future expansion.
+This project leverages Next.js performance optimizations, TypeScript type safety, and ASP.NET Core backend APIs, making it a strong foundation for future expansion.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-* 🔐 **User Authentication** (Signup, Login, JWT-based auth)
-* 👤 **Profile Management** (Update user info & upload avatar)
-* 📂 **File Upload & Storage** (Manage medical files securely)
-* 📊 **Dashboard** with user and file details
-* 🌐 **Modern UI** with responsive design (Next.js + Tailwind)
-* ⚡ **Full-stack integration** (ASP.NET Core backend + Next.js frontend)
+* 🔐 User Authentication (Signup, Login, JWT-based auth)
+* 👤 Profile Management (Update user info & upload avatar)
+* 📂 File Upload & Storage (Manage medical files securely)
+* 📊 Dashboard with user and file details
+* 🌐 Modern UI with responsive design (Next.js + Tailwind)
+* ⚡ Full-stack integration (ASP.NET Core backend + Next.js frontend)
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 🏠 Homepage
+# 🏠 Homepage
 
 ![Homepage](docs/homepage.png)
 
-### 🔐 Login Page
+# 🔐 Login Page
 
 ![Login](docs/loginpage.png)
 
-### 📝 Signup Page
+# 📝 Signup Page
 
 ![Signup](docs/signuppage.png)
 
-### 📊 Dashboard
+# 📊 Dashboard
 
 ![Dashboard](docs/dashboardpage1.png)
 ![Dashboard Files](docs/dashboardpage2.png)
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Frontend | Backend      | Database          | Other Tools |
 | -------- | ------------ | ----------------- | ----------- |
@@ -53,10 +53,10 @@ This project leverages Next.js performance optimizations, TypeScript type safety
 
 ---
 
-## 📦 Key Dependencies
+# 📦 Key Dependencies
 
 ```json
-axios: ^1.11.0
+axios: 1.11.0
 next: 15.5.0
 react: 19.1.0
 react-dom: 19.1.0
@@ -64,16 +64,16 @@ react-dom: 19.1.0
 
 ---
 
-## 🚀 Run Commands
+# 🚀 Run Commands
 
-* **Dev**: `npm run dev`
-* **Build**: `npm run build`
-* **Start**: `npm run start`
-* **Lint**: `npm run lint`
+* Dev: `npm run dev`
+* Build: `npm run build`
+* Start: `npm run start`
+* Lint: `npm run lint`
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
 .
@@ -98,9 +98,9 @@ react-dom: 19.1.0
 
 ---
 
-## 🛠️ Development Setup
+# 🛠️ Development Setup
 
-### Node.js/Frontend Setup
+# Node.js/Frontend Setup
 
 1. Install Node.js (v18+)
 2. Install dependencies:
@@ -114,9 +114,9 @@ react-dom: 19.1.0
    npm run dev
    ```
 
-### Backend (.NET Setup)
+# Backend (.NET Setup)
 
-1. Install **.NET 8 SDK**
+1. Install .NET 8 SDK
 2. Navigate to `/Backend` and restore dependencies:
 
    ```bash
@@ -130,7 +130,7 @@ react-dom: 19.1.0
 
 ---
 
-## 🛣️ Roadmap
+# 🛣️ Roadmap
 
 * [ ] Role-based access (Admin, Doctor, Patient)
 * [ ] Notifications system
@@ -140,27 +140,27 @@ react-dom: 19.1.0
 
 ---
 
-## 👥 Contributing
+# 👥 Contributing
 
 Contributions are welcome!
 
-1. **Fork** the repository
-2. **Clone** your fork:
+1. Fork the repository
+2. Clone your fork:
 
    ```bash
    git clone https://github.com/CoderSanking/MiniMedicalProject.git
    ```
-3. **Create a branch**:
+3. Create a branch:
 
    ```bash
    git checkout -b feature/your-feature
    ```
-4. **Commit changes**:
+4. Commit changes:
 
    ```bash
    git commit -am "Add feature"
    ```
-5. **Push branch**:
+5. Push branch:
 
    ```bash
    git push origin feature/your-feature
@@ -173,10 +173,10 @@ Contributions are welcome!
 
 * Sanket Kadam
 * GitHub: [CoderSanking](https://github.com/CoderSanking)
-* LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+* LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sanketkadam9)
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
