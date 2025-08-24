@@ -1,0 +1,36 @@
+# ===== .NET build artifacts =====
+bin/
+obj/
+*.user
+*.db
+*.log
+
+# ===== VS/IDE =====
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== Node/Next.js =====
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===== Environment & Secrets =====
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# ===== Uploads & Profile Images =====
+ProfileImages/*
+Uploads/*
+
+# Keep folders 
+!ProfileImages/.gitkeep
+!Uploads/.gitkeep
