@@ -6,7 +6,9 @@ namespace MiniMedicalProject.Models
     {
         public int Id { get; set; }
         public string FullName { get; set; } = string.Empty;
-        [EmailAddress(ErrorMessage = "Invalid email address format.")]
+
+        [Required]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; } = string.Empty;
         public string Gender { get; set; } = string.Empty;
         public string? ProfileImagePath { get; set; }  

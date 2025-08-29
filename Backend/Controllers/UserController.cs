@@ -21,7 +21,7 @@ namespace MiniMedicalProject.Controllers
             _env = env;
         }
 
-        // GET: api/User/Profile
+  
         [HttpGet("Profile")]
         public async Task<IActionResult> GetProfile()
         {
@@ -37,11 +37,11 @@ namespace MiniMedicalProject.Controllers
                 user.Email,
                 user.Gender,
                 user.Phone,
-                user.ProfileImagePath   // ✅ Include image in GET too
+                user.ProfileImagePath   
             });
         }
 
-        // PUT: api/User/Profile 
+
         [HttpPut("Profile")]
         public async Task<IActionResult> UpdateProfile([FromForm] ProfileUpdateDto dto)
         {

@@ -21,7 +21,7 @@ namespace MiniMedicalProject.Controllers
             _env = env;
         }
 
-        // POST: api/Files (upload)
+      
         [HttpPost]
         public async Task<IActionResult> UploadFile([FromForm] FileUploadDto dto)
         {
@@ -63,7 +63,7 @@ namespace MiniMedicalProject.Controllers
             });
         }
 
-        // GET: api/Files 
+  
         [HttpGet]
         public async Task<IActionResult> GetFiles()
         {
@@ -85,7 +85,7 @@ namespace MiniMedicalProject.Controllers
             return Ok(files);
         }
 
-        // DELETE: api/Files/{id}
+    
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFile(int id)
         {
